@@ -4,7 +4,7 @@ import { Box, Button, chakra, Container, Flex, HStack } from '@chakra-ui/react'
 export const DefaultLayout = (props) => {
   const { children } = props;
   return (
-    <Box className="page-wrap">
+    <div className="page-wrap">
       <Box as="header">
         <Container as={Flex} maxW="container.xl" h="full" justify="space-between" align="center">
           <chakra.h1 fontSize="2xl" fontWeight="bold" color="gray.700" _hover={{ color: 'blue.300' }}>
@@ -27,6 +27,6 @@ export const DefaultLayout = (props) => {
          </chakra.p>
         </Container>
       </Box>
-    </Box>
+    </div>
   );
 }

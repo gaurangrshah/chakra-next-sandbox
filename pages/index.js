@@ -45,7 +45,7 @@ const cards = {
     },
     {
       title: 'Guides',
-      href: 'https://chakra-ui.com/guides/integrations/with-cra"',
+      href: 'https://chakra-ui.com/guides/integrations/with-cra',
       description: 'Quick guides to accomplish most basic features.'
     },
     {
